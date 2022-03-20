@@ -1,0 +1,14 @@
+{
+	"name": "Quick Search",
+	"description": "A extension used for quickly searching stuff up.
+	1.2!",
+	"version": "1.2",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": ["storage"],
+	"action": {
+		"default_popup": "app.html"
+	}
+}
